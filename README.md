@@ -48,7 +48,7 @@ the test overall.
 
 # CAVEATS
 
-This module uses [forks](https://metacpan.org/pod/forks), and turns of [EV](https://metacpan.org/pod/EV), in order to work with [Mojolicious](https://metacpan.org/pod/Mojolicious).
+This module uses [forks](https://metacpan.org/pod/forks), and turns off [EV](https://metacpan.org/pod/EV), in order to work with [Mojolicious](https://metacpan.org/pod/Mojolicious).
 Most of those modules were never designed to work together, but hey this is Perl right?
 
 This module should be declared as early as possible in your test file, so that it can

@@ -77,7 +77,7 @@ sub blocking (&)
 
 =head1 CAVEATS
 
-This module uses L<forks>, and turns of L<EV>, in order to work with L<Mojolicious>.
+This module uses L<forks>, and turns off L<EV>, in order to work with L<Mojolicious>.
 Most of those modules were never designed to work together, but hey this is Perl right?
 
 This module should be declared as early as possible in your test file, so that it can
