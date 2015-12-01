@@ -1,0 +1,7 @@
+Devel::Hide
+ExtUtils::MakeMaker
+HTTP::Tiny
+JSON::PP
+Mojolicious
+Test::More
+forks
