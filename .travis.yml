@@ -13,9 +13,6 @@ perl:
   - "5.20"
 
 script:
-  - prove -lv
-
-script:
   - dzil test -v
 
 sudo: false
