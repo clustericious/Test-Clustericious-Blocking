@@ -1,4 +1,4 @@
-# Test::Clustericious::Blocking
+# Test::Clustericious::Blocking [![Build Status](https://secure.travis-ci.org/clustericious/Test-Clustericious-Blocking.png)](http://travis-ci.org/clustericious/Test-Clustericious-Blocking)
 
 Run blocking code in a process using an unholy combination of forks and Mojolicious
 
