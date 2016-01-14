@@ -24,6 +24,8 @@ Run blocking code in a process using an unholy combination of forks and Mojolici
 
 # DESCRIPTION
 
+**Warning**: This module should be considered experimental.
+
 [Clustericious](https://metacpan.org/pod/Clustericious) inherits a great asynchronous API from [Mojolicious](https://metacpan.org/pod/Mojolicious) and 
 [Test::Clustericious::Cluster](https://metacpan.org/pod/Test::Clustericious::Cluster) is a great way to test one or more [Clustericious](https://metacpan.org/pod/Clustericious)
 services in the same process, but if you have a blocking client to test then

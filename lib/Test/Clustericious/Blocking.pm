@@ -37,6 +37,8 @@ our @EXPORT = qw( blocking );
 
 =head1 DESCRIPTION
 
+B<Warning>: This module should be considered experimental.
+
 L<Clustericious> inherits a great asynchronous API from L<Mojolicious> and 
 L<Test::Clustericious::Cluster> is a great way to test one or more L<Clustericious>
 services in the same process, but if you have a blocking client to test then
