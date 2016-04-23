@@ -10,11 +10,13 @@ my %modules;
 my $post_diag;
 
 $modules{$_} = $_ for qw(
+  Clustericious
   Devel::Hide
   ExtUtils::MakeMaker
   HTTP::Tiny
   JSON::PP
   Mojolicious
+  Test::Clustericious::Cluster
   Test::More
   forks
 );
