@@ -8,8 +8,8 @@ use JSON::PP qw( decode_json );
 
 BEGIN {
   my $code = q{
-    use Test::Clustericious::Cluster 0.25;
-    use Clustericious 1.06;
+    use Test::Clustericious::Cluster 0.31;
+    use Clustericious 1.20;
     1;
   };
   
