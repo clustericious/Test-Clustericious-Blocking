@@ -13,7 +13,7 @@ BEGIN {
     1;
   };
   
-  plan skip_all => 'Test requires Test::Clustericious 0.25 and Clustericious 1.06'
+  plan skip_all => 'Test requires Test::Clustericious::Cluster 0.31 and Clustericious 1.20'
     unless eval $code;
 }
 
