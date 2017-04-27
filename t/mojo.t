@@ -1,12 +1,19 @@
-use strict;
-use warnings;
-use 5.010001;
+use Test2::Bundle::Extended;
 BEGIN { $ENV{MOJO_MODE}='testing'; };
-use Test::More tests => 3;
 use Test::Clustericious::Blocking;
 use Mojolicious::Lite;
 use Test::Mojo;
 use HTTP::Tiny;
+
+BEGIN {
+  my $code = q{
+    use Mojolicious 7.31;
+    1;
+  };
+  
+  skip_all 'Test requires Mojolicious 7.31'
+    unless eval $code;
+}
 
 app->log->level('fatal');
 
@@ -22,3 +29,5 @@ my $url = $t->tx->req->url->to_abs;
 note "url = $url";
 
 is blocking { HTTP::Tiny->new->get($url)->{content} }, 'a response', 'with HTTP::Tiny';
+
+done_testing;

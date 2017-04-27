@@ -1,6 +1,7 @@
 language: perl
 
 install:
+  - cpanm -n Dist::Zilla
   - dzil authordeps --missing | cpanm -n
   - dzil listdeps --missing | cpanm -n
 
