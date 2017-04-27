@@ -16,6 +16,7 @@ $modules{$_} = $_ for qw(
   HTTP::Tiny
   JSON::PP
   Mojolicious
+  Test2::Suite
   Test::Clustericious::Cluster
   Test::More
   forks
