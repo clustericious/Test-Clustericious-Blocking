@@ -12,7 +12,7 @@ use base qw( Exporter );
 
 our @EXPORT = qw( blocking );
 
-# ABSTRACT: Run blocking code in a process using an unholy combination of forks and Mojolicious
+# ABSTRACT: (Deprecated) Run blocking code in a process using an unholy combination of forks and Mojolicious
 # VERSION
 
 =head1 SYNOPSIS
@@ -36,6 +36,9 @@ our @EXPORT = qw( blocking );
  url: <%= clusters->url %>
 
 =head1 DESCRIPTION
+
+B<NOTE>: This module has been deprecated, and may be removed on or after 31 December 2018.
+Please see L<https://github.com/clustericious/Clustericious/issues/46>.
 
 B<Warning>: This module should be considered experimental.
 

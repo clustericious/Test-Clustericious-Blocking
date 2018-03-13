@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Deprecated. See https://github.com/clustericious/Clustericious/issues/46
 
 0.06      2017-09-13 11:47:40 -0400
   - Test2 compatability fix (gh#5 Slaven Rezić++)

@@ -1,6 +1,6 @@
 # Test::Clustericious::Blocking [![Build Status](https://secure.travis-ci.org/clustericious/Test-Clustericious-Blocking.png)](http://travis-ci.org/clustericious/Test-Clustericious-Blocking)
 
-Run blocking code in a process using an unholy combination of forks and Mojolicious
+(Deprecated) Run blocking code in a process using an unholy combination of forks and Mojolicious
 
 # SYNOPSIS
 
@@ -23,6 +23,9 @@ Run blocking code in a process using an unholy combination of forks and Mojolici
     url: <%= clusters->url %>
 
 # DESCRIPTION
+
+**NOTE**: This module has been deprecated, and may be removed on or after 31 December 2018.
+Please see [https://github.com/clustericious/Clustericious/issues/46](https://github.com/clustericious/Clustericious/issues/46).
 
 **Warning**: This module should be considered experimental.
 
